@@ -1,0 +1,42 @@
+.background{
+    background: url("../../images/r.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 595px;
+}
+
+.p{
+    text-align:center;
+    color: red;
+    font-style: italic;
+    
+    
+}
+.btn btn-info:hover{
+    cursor: progress;
+}
+.fnm{
+    text-align: center;
+    color: whitesmoke;
+    margin-right: 1100px;
+    font-size: 20px;
+    color: turquoise;
+}
+.lgout{
+    margin-left: 900px;
+    margin-bottom: 160px;
+    
+}
+.set{
+  color: aliceblue;
+  margin-bottom: 40px;
+  font-style: italic;
+
+  font-size: 25px;
+}
+.ct{
+   margin-bottom: 160px;
+}
+.h1{
+    text-align: center;
+}

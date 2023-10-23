@@ -1,0 +1,26 @@
+table{
+    margin-top: 50px;
+    text-align: center;
+   background-color: rgb(229, 124, 19);
+    width: 450px;
+}
+
+#show th, #show td{
+    padding: 13px;
+}
+.body{
+    background: url("../../images/4484586.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 780px;
+    width: 100%;
+}
+
+
+th{
+    color: rgb(0, 0, 0);
+}
+.heading{
+    color: brown;
+    font-size: 4.5rem;
+}

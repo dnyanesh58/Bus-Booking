@@ -1,0 +1,23 @@
+.label-control
+{
+  color: rgb(255, 255, 255);
+}
+
+.backimage{
+    background-image: url("../../images/bg.jpg") ;
+    background-color: #833535;
+    background-size:cover;
+}
+
+h1 {
+    color: #fff;
+    font-family: tahoma;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+}

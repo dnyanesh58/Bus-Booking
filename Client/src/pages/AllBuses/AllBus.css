@@ -1,0 +1,102 @@
+.busCard-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .busCard {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+  }
+
+  .busCard h2{
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .busCard p{
+    margin: 5px 0;
+  }
+
+  .thumbnail{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .no-buses {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: thistle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+.mainPage-Allbus{
+    position: relative; /* Ensure proper positioning of child elements */   
+}
+
+.mainPage-Allbus::before {
+    content: "";
+    background-image: url('../../images/bus.png'); /* Replace with the actual image path */
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); /* Adjust the blur amount as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the pseudo-element behind the content */
+    opacity: 0.7; /* Adjust the opacity for the blur effect */
+}
+
+.mainPage-AllBus-content {
+    position: relative; /* Ensure content appears on top of the pseudo-element */
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  overflow: hidden; /* Clip the image to the specified dimensions */
+  border: 1px solid #ccc; /* Add a border for styling */
+}
+
+.thumbnail img {
+  width: 100%; /* Make the image fill the containing div */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+.footer-container {
+  background-color:  darkcyan; /* Background color for the footer */
+  color: #fff; /* Text color for the footer */
+  padding: 10px 0; /* Adjust the padding as needed */
+  text-align: center; 
+  border-radius: 20px;/* Center-align the text in the footer */
+}
+
+.header-container {
+  background-color: darkcyan; /* Background color for the header */
+  color: #fff; /* Text color for the header */
+  padding: 10px 0; /* Adjust the padding as needed */
+  text-align: center;
+  border-radius: 20px;
+}

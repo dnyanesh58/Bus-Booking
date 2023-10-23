@@ -1,0 +1,82 @@
+
+.addbus-container {
+    display: flexbox;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row if the window is too narrow */
+    justify-content: space-between; /* Distribute cards evenly with space in-between */
+    margin: 20px; /* Add some margin for spacing */
+  }
+
+  .addbus-pair {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .header-message {
+    font-size: 24px;
+    font-weight: bold; /* Make the text bold */
+    color: aliceblue; /* Text color */
+    text-align: center; /* Center-align the text */
+    margin: 10px 0; /* Add some vertical margin for spacing */
+    text-transform: uppercase; /* Convert text to uppercase */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+  }
+  
+.admin-dashboard {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Styles for the cards */
+  .addbus {
+    width: min-content;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: coral;
+    text-align: center;
+  }
+  
+  .set{
+    color: aqua;
+    margin-bottom: 40px;
+    font-style: italic;
+    font-size: 25px;
+  }
+
+.header-container {
+  background-color: #333; /* Background color for the header */
+  color: #fff; /* Text color for the header */
+  padding: 10px 0; /* Adjust the padding as needed */
+  text-align: center;
+}
+
+.footer-container {
+  background-color: #333; /* Background color for the footer */
+  color: #fff; /* Text color for the footer */
+  padding: 10px 0; /* Adjust the padding as needed */
+  text-align: center; /* Center-align the text in the footer */
+}
+
+.body2 {
+  position: relative; /* Required for overlay */
+}
+
+.body2::before {
+  content: "";
+    background-image: url('../../images/bg.jpg'); /* Replace with the actual image path */
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); /* Adjust the blur amount as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the pseudo-element behind the content */
+    opacity: 0.7; /* Adjust the opacity for the blur effect */
+}
+

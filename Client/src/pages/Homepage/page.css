@@ -1,0 +1,28 @@
+.nav{
+    width: 100%;
+}
+.design{
+    font-size: 30px;
+    display: flow-root;
+}
+.head{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white
+    
+}
+.page{
+    margin-left: 450px;
+}
+.body1{
+
+}
+.footer{
+    border: 2px;
+    display: flexbox;
+    height: 50px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+}
